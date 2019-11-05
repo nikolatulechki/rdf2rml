@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+perl -S /home/nikola/source/puml/rdfpuml.pl $1
+java -jar /home/nikola/source/puml/plantuml.jar -charset "UTF-8" "${1%.ttl}.puml"
+rm ./*.puml
