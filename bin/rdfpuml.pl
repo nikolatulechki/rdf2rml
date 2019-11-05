@@ -25,7 +25,7 @@ use Carp::Always; # http://search.cpan.org/~ferreira/Carp-Always-0.13/lib/Carp/A
   # stronger than $Carp::Verbose = 1;
 use RDF::Trine;
 use RDF::Query;
-use Slurp;
+use File::Slurp;
 use FindBin;
 use lib "$FindBin::Bin/../lib"; # Curie is my own module, not yet on CPAN
 use RDF::Prefixes::Curie;
